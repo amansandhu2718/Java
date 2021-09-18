@@ -1,7 +1,12 @@
 import java.util.*;
   
   public class AnyBaseAddition{
-  
+
+    // 199 addition on Base 10    199  addition on Base 8
+    //+199                        +199
+    //-----                      -----
+    //398                         442
+    //-----                      -----
   public static void main(String[] args) {
       Scanner scn = new Scanner(System.in);
       int b = scn.nextInt();
