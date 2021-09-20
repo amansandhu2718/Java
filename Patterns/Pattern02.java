@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Pattern2 {
+public class Pattern02 {
     // *       *       *       *       *
     // *       *       *       *
     // *       *       *

@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Pattern7 {
+public class Pattern07 {
     // input 7
     // *
     //         *
