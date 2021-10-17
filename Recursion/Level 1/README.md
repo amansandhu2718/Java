@@ -4,7 +4,7 @@
 
 - 1 Count
 - 2 Count_reverse
-- 3 Power
-- 4 Factorial
+- 3 Factorial
+- 4 Power
 
  
