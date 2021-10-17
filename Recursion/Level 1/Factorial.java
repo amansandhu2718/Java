@@ -5,7 +5,7 @@ public class Factorial {
         Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();
         int ans = factorial(n);
-        System.out.println("factorial of "+n+" is : "+ans);
+      
     }
 
     public static int factorial(int n) {

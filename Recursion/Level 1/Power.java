@@ -6,7 +6,7 @@ public class Power {
         int n = scn.nextInt();
         int pow = scn.nextInt();
         int ans = power(n, pow);
-        System.out.println(ans);
+        System.out.println("Power (Linear) of "+n+" is : "+ans);
     }
 
     public static int power(int n, int pow) {

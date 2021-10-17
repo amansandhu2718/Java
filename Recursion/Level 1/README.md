@@ -6,5 +6,6 @@
 - 2 Count_reverse
 - 3 Factorial
 - 4 Power
+- 5 Power_logarithmic ( Logarithmic)
 
  
