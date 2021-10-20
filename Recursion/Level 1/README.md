@@ -7,5 +7,6 @@
 - 3 Factorial
 - 4 Power
 - 5 Power_logarithmic ( Logarithmic)
+- 6 ZigZag Euler (traverse euler of recursion tree)(imp)
 
  
