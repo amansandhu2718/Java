@@ -51,7 +51,7 @@ class MyLinkList{
        length++;
        }
 }
-class Main{
+class LinkListBasics{
     public static void main(String[] args) {
         MyLinkList mylinklist=new MyLinkList();
         for(int i=1;i<=10;i++){
