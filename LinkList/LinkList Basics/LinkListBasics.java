@@ -148,6 +148,50 @@ class MyLinkList{
             length--;
         }
     }
+    /**
+     * function returns data value of node at given index;
+     * @param index
+     * @return int
+     */
+    int getAt(int index){
+        if(head==null){
+            System.out.println("Linklist is empty.");
+        }
+        else if(index>=length || index<0){
+            System.out.println("invalid index: "+index);
+        }else{
+            Node temp=head;
+            for(int i=0;i<index;i++){
+                temp=temp.next;
+            }
+            return temp.data;
+        }
+        return -1;
+    }
+    /**
+     * returns Node at given index returns -1 if invalid index.
+     * @param index
+     * @return Node
+     */
+    Node getNodeAt(int index){
+        if(head==null){
+                System.out.println("Linklist is empty.");
+        }
+        else if(index>=length || index<0){
+            System.out.println("invalid index: "+index);
+        }else {
+            Node temp=head;
+            for(int i=0;i<index;i++){
+                temp=temp.next;
+            }
+            return temp;
+        }
+        Node node=new Node();
+        node.data=-1;
+        node.next=null;
+        return node;
+    }
+
 
     }
 class LinkListBasics{
@@ -168,7 +212,7 @@ class LinkListBasics{
         mylinklist.addAt(99,33333);
         mylinklist.display();
         System.out.println("\n length of my linklist is: "+mylinklist.length);
-        System.out.println("\n-------------------------- REMOVE  Methods to remove elements from LinkList ---------------------------------------\n\n\n\n");
+        System.out.println("\n\n\n\n-------------------------- REMOVE  Methods to remove elements from LinkList ---------------------------------------\n");
         System.out.println("length of my linklist is: "+mylinklist.length);
         mylinklist.display();
         int x=mylinklist.length;
@@ -178,19 +222,15 @@ class LinkListBasics{
         }
         System.out.println("\n length of my linklist is: "+mylinklist.length);
         mylinklist.display();
-     
         System.out.println("removing from last... ");
         mylinklist.removeLast();
         mylinklist.display();
-
         System.out.println("removing element at  ... ");
         mylinklist.removeAt(55);
         mylinklist.display();
-
-
-       
-        
-        
-        
+        System.out.println("\n\n\n\n-------------------------- Get at Methods to get data from LinkList ---------------------------------------\n");
+        System.out.println("int returned by function: "+mylinklist.getAt(4));
+        Node temp=mylinklist.getNodeAt(0);
+        System.out.println("int of node returned by function: "+temp.data);        
     }
 }
