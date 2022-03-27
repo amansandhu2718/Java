@@ -1,8 +1,8 @@
-class Node{
+ class Node{
     int data=0;
     Node next=null;
 }
-class MyLinkList{
+ class MyLinkList{
     Node head;
     Node tail;
     int length;
