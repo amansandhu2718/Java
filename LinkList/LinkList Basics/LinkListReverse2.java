@@ -20,6 +20,5 @@ public class LinkListReverse2 {
         }
         myLinkList.head=prev; // save head in original LL obj.
         myLinkList.display();
-        
     }
 }

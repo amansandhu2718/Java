@@ -6,6 +6,7 @@ public class KthElement {
         }
         myLinkList.display();
         Node slow=myLinkList.head;
+        System.out.println("slow:"+slow.data);
         Node fast=myLinkList.head;
         int k=3;//assume k is always correct
         /*  
