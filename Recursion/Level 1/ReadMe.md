@@ -29,3 +29,5 @@
 >Backtracking
 - N-Queens
 - Sudoku Solver
+- Knight Tour
+- Target Sum Subset
